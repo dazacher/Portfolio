@@ -1,16 +1,19 @@
 /* Setup the background of my website */
 body{
     /* background-image: url("Assets/Images/MilkyWay.jpg"); */
-    background-image: url("Assets/Images/mural.jpg");
+    /* background-image: url("Assets/Images/mural.jpg"); */
+    background-image: url("Assets/Images/aia.jpg");
     background-repeat: yes; 
     background-size: cover; 
     background-position: center;
-    font-family: 'Noto Serif', serif;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Kalam', cursive;
 }
 
 /* Resume CSS */
 .resume{
-    font-family: 'Noto Serif', serif;
+    /* font-family: 'Noto Serif', serif; */
+    font-family: 'Kalam', cursive;
 }
 
 #resumeH2{
@@ -40,6 +43,7 @@ li.borderless {
 .companyDiv{
     width: 50%;
 }
+
 .company{
     text-decoration: underline;   
 }
@@ -55,6 +59,23 @@ li.borderless {
 }
 /* End Resume CSS */
 
+.navbar {
+    background-color: #990099;
+    /* background-color: blueviolet;   */
+}
+
+/* #deeannImg{
+    padding-top: 50px;
+} */
+#deeann {
+    font-size: xxx-large;
+    text-align: center;
+}
+
+#fullstack {
+    font-size: x-large;
+    text-align: center;
+}
 /* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
     padding-left: 25px;
@@ -65,18 +86,23 @@ li.borderless {
     color:white;
     font-weight: bold;
     font-size: xx-large;
-    background-color: blueviolet;
-    font-family: 'Noto Serif', serif;
+    background-color: #990099;
+    /* background-color: blueviolet; */
+    font-family: 'Kalam', cursive;
+    /* font-family: 'Noto Serif', serif; */
 }
 
-/* Set the color of the font for the site to White */
+/* Set the color of the font for the site to Purple */
 div{
-    color: white;
+    /* color: #C44DFF; */
+    /* color: #B319FF; */
+    color: #990099;
+    font-family: 'Kalam', cursive;
 }
 
 /* Setup the width of the form */
 .form-control{
-    width: 750px;
+    width: 100%;
 }
 
 /* Setup the height of the message box */
@@ -90,9 +116,14 @@ div{
     border-bottom: solid;
 }
 
+#dafs{
+ padding-top: 50px;
+}
+
 /* Details of the button on the contact page */
 .btn{
-    background-color: blueviolet;
+    background-color: #990099;
+    /* background-color: blueviolet; */
     text-align: left;
     color: white;
     left: 25px;
@@ -106,9 +137,10 @@ div{
 /* Adjust the height and width of the image on the index page and location */
 .img-responsive{
       float: left;
+      padding-top: 25px;
       padding-right: 15px;;
       width: 235px;
-      height: 250px;
+      height: 275px;
   }
   
 .container .btn:hover {
@@ -158,6 +190,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    color:white;
     font-size: small;
 }
 
@@ -186,6 +219,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    color:white;
     font-size: small;
 }
 
@@ -213,6 +247,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    color:white;
     font-size: small;
 }
 
@@ -241,6 +276,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    color:white;
     font-size: small;
 }
 
@@ -271,6 +307,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    color:white;
     font-size: small;
 }
 
@@ -301,6 +338,7 @@ div{
     width: 100%;
     bottom: 15px;
     background-color: blueviolet;
+    color:white;
     font-size: small;
 }
 
@@ -324,6 +362,7 @@ div{
     font-size: small;
 }
 
+/* contact icons in index page size */
 .indexImages{
     width: 15px;
     height: 15px;
