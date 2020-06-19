@@ -6,13 +6,11 @@ body{
     background-repeat: yes; 
     background-size: cover; 
     background-position: center;
-    /* font-family: 'Noto Serif', serif; */
     font-family: 'Kalam', cursive;
 }
 
 /* Resume CSS */
 .resume{
-    /* font-family: 'Noto Serif', serif; */
     font-family: 'Kalam', cursive;
 }
 
@@ -61,12 +59,8 @@ li.borderless {
 
 .navbar {
     background-color: #990099;
-    /* background-color: blueviolet;   */
 }
 
-/* #deeannImg{
-    padding-top: 50px;
-} */
 #deeann {
     font-size: xxx-large;
     text-align: center;
@@ -76,6 +70,7 @@ li.borderless {
     font-size: x-large;
     text-align: center;
 }
+
 /* Set up the formatting of the Navbar for my Name */
 .navbar-brand{
     padding-left: 25px;
@@ -87,15 +82,11 @@ li.borderless {
     font-weight: bold;
     font-size: xx-large;
     background-color: #990099;
-    /* background-color: blueviolet; */
     font-family: 'Kalam', cursive;
-    /* font-family: 'Noto Serif', serif; */
 }
 
 /* Set the color of the font for the site to Purple */
 div{
-    /* color: #C44DFF; */
-    /* color: #B319FF; */
     color: #990099;
     font-family: 'Kalam', cursive;
 }
@@ -123,7 +114,6 @@ div{
 /* Details of the button on the contact page */
 .btn{
     background-color: #990099;
-    /* background-color: blueviolet; */
     text-align: left;
     color: white;
     left: 25px;
@@ -281,7 +271,6 @@ div{
 }
 
 .box4 #anchor7{
-    /* position: absolute; */
     text-align: center;
     color: white;
     width: 100%;
@@ -291,7 +280,6 @@ div{
 }
 
 .box4 #anchor8{
-    /* position: absolute; */
     text-align: center;
     color: white;
     width: 100%;
@@ -312,7 +300,6 @@ div{
 }
 
 .box5 #anchor9{
-    /* position: absolute; */
     text-align: center;
     color: white;
     width: 100%;
@@ -322,7 +309,6 @@ div{
 }
 
 .box5 #anchor10{
-    /* position: absolute; */
     text-align: center;
     color: white;
     width: 100%;
@@ -343,7 +329,6 @@ div{
 }
 
 .box6 #anchor11{
-    /* position: absolute; */
     text-align: center;
     color: white;
     width: 100%;
@@ -353,7 +338,6 @@ div{
 }
 
 .box6 #anchor12{
-    /* position: absolute; */
     text-align: center;
     color: white;
     width: 100%;
