@@ -145,11 +145,9 @@ div{
     width: 115px;
     height: 25px;
     background: white;
-    /* padding: 10px; */
     text-align: center;
     border-radius: 5px;
     color: #990099;
-    /* font-weight: bold; */
     line-height: 25px;
 }
 
@@ -160,9 +158,6 @@ div{
 
 /* Adjust the height and width of the image on the index page and location */
 .img-responsive{
-      
-      
-      /* padding-right: 15px;; */
       width: 220px;
       height: 275px;
   }
@@ -221,19 +216,13 @@ div{
 
  .box1 #anchor1 {
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -15px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
 .box1 #anchor2{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -155px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -250,19 +239,19 @@ div{
 
 .box2 #anchor3{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -15px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
 .box2 #anchor4{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -155px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 /* Setup text positioning of third image */
@@ -278,19 +267,19 @@ div{
 
 .box3 #anchor5{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -15px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
 .box3 #anchor6{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -155px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -307,19 +296,19 @@ div{
 
 .box4 #anchor7{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -15px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
 .box4 #anchor8{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -155px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -336,19 +325,19 @@ div{
 
 .box5 #anchor9{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -15px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
 .box5 #anchor10{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -155px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -365,19 +354,19 @@ div{
 
 .box6 #anchor11{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -15px;
-    background-color: #990099;
+    /* background-color: #990099; */
     font-size: small;
 }
 
 .box6 #anchor12{
     text-align: center;
-    color: white;
-    width: 100%;
+    /* color: white; */
+    /* width: 100%; */
     bottom: -155px;
-    background-color: #990099;
+    /* background-color: #990099; */ */
     font-size: small;
 }
 
