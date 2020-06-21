@@ -239,19 +239,13 @@ div{
 
 .box2 #anchor3{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -15px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
 .box2 #anchor4{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -155px;
-    /* background-color: #990099; */
     font-size: small;
 }
 /* Setup text positioning of third image */
@@ -267,19 +261,13 @@ div{
 
 .box3 #anchor5{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -15px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
 .box3 #anchor6{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -155px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -296,19 +284,13 @@ div{
 
 .box4 #anchor7{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -15px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
 .box4 #anchor8{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -155px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -325,19 +307,13 @@ div{
 
 .box5 #anchor9{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -15px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
 .box5 #anchor10{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -155px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
@@ -354,19 +330,13 @@ div{
 
 .box6 #anchor11{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -15px;
-    /* background-color: #990099; */
     font-size: small;
 }
 
 .box6 #anchor12{
     text-align: center;
-    /* color: white; */
-    /* width: 100%; */
     bottom: -155px;
-    /* background-color: #990099; */ */
     font-size: small;
 }
 
@@ -376,14 +346,15 @@ div{
     height: 15px;
 }
 
+/* Media query to mage image on index page align properly at diferent sizes */
 @media (min-width: 768px) {
     .img-responsive {float: left;}
 }
-
+/* Media query to mage personalized text on index page align properly at diferent sizes */
 @media (min-width: 576px) {
     .deeann {display: inline;}
 }
-
+/* Make I am Dee Ann align center */
 h1 {
     text-align: center;
 }
