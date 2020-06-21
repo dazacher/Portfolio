@@ -337,8 +337,8 @@ div{
 
 /* contact icons in index page size */
 .indexImages{
-    width: 15px;
-    height: 15px;
+    width: 60px;
+    height: 60px;
 }
 
 /* Media query to mage image on index page align properly at diferent sizes */
@@ -350,6 +350,6 @@ div{
     .deeann {display: inline;}
 }
 /* Make I am Dee Ann align center */
-h1 {
+h1, .contactInfo {
     text-align: center;
 }
