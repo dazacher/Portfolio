@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="Assets/Images/favicon.png" type="image/x-icon/">
+  <link rel="icon" href="./public/Assets/Images/favicon.png" type="image/x-icon/">
   <title>Portfolio</title>
 
   <!-- Link for google font -->
@@ -23,9 +23,8 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
-
   <!-- Link for personal style sheet -->
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./public/styles/style.css" />
 </head>
 
 <body>
@@ -65,13 +64,22 @@
     <div class="row">
       <div class="col-sm-6 col-xs-12">
         <div class="box1">
-          <img src="./Assets/Images/Trivia-with-Friends.jpg" alt="Trivia with Friends"><br>
+          <img src="./public/Assets/Images/Trivia-with-Friends.jpg" alt="Trivia with Friends"><br>
           <div class="text">
             <h5>Trivia with Friends</h5>
             <!-- Links to GitHub deployed website and github code -->
-            <a id="anchor1" href="https://dazacher.github.io/Trivia-With-Friends/" target="_blank">Deployed
-              Website</a><br>
-            <a id="anchor2" href="https://github.com/dazacher/Trivia-With-Friends" target="_blank">GitHub Code</a>
+            <!-- <button class="btn btnPortfolio" type="submit" id="triviaGithub">Deployed Website</button> -->
+            <div class="row">
+              <div class="col-6 anchor">
+                <a id="anchor1" class="button" href="https://dazacher.github.io/Trivia-With-Friends/"
+                  target="_blank">Deployed
+                  Website</a>
+              </div>
+              <div class="col-6 anchor">
+                <a id="anchor2" class="button" href="https://github.com/dazacher/Trivia-With-Friends"
+                  target="_blank">GitHub Code</a>
+              </div>
+            </div>
             <p>Applications: Bulma CSS, jQuery, API's, SoundManager2, AJAX, JSON, Git Bash, GitHub</p>
           </div>
         </div>
@@ -79,7 +87,7 @@
       <!-- Second picture on my portfolio page. -->
       <div class="col-sm-6 col-xs-12">
         <div class="box2">
-          <img src="./Assets/Images/Weather-Dashboard.jpg" alt="Weather Dashboard">
+          <img src="./public/Assets/Images/Weather-Dashboard.jpg" alt="Weather Dashboard">
           <div class="text">
             <h5>Weather Dashboard</h5>
             <!-- Links to GitHub deployed website and github code -->
@@ -95,21 +103,22 @@
     <div class="row">
       <div class="col-sm-6 col-xs-12">
         <div class="box3">
-          <img src="./Assets/Images/TimeTracker.png" alt="Time Tracker">
+          <img src="./public/Assets/Images/TimeTracker.png" alt="Time Tracker">
           <div class="text">
             <h5>Time Tracker</h5>
             <!-- Links to GitHub deployed website and github code -->
             <a id="anchor5" href="https://time-tracker-v-2.herokuapp.com/login" target="_blank">Deployed
               Website</a><br>
             <a id="anchor6" href="https://github.com/tomtimusprime/Time-Tracker-v2" target="_blank">GitHub Code</a>
-            <p>Applications: Node.js, Express.js, MySql, Sequelize, Travis CI/CD, Passport.js, ESLint, Moment, bCrypt, CSS, HTML, Bootstrap, JavaScript, API’s, AJAX, JSON, Git Bash, GitHub, Heroku, JawsDB </p>
+            <p>Applications: Node.js, Express.js, MySql, Sequelize, Travis CI/CD, Passport.js, ESLint, Moment, bCrypt,
+              CSS, HTML, Bootstrap, JavaScript, API’s, AJAX, JSON, Git Bash, GitHub, Heroku, JawsDB </p>
           </div>
         </div>
       </div>
       <!-- Fourth picture on my portfolio page.t-->
       <div class="col-sm-6 col-xs-12">
         <div class="box4">
-          <img src="./Assets/Images/Eat-Da-Burger.jpg" alt="Eat-Da_Burger">
+          <img src="./public/Assets/Images/Eat-Da-Burger.jpg" alt="Eat-Da_Burger">
           <div class="text">
             <h5>Eat-Da-Burger</h5>
             <!-- Links to GitHub deployed website and github code -->
@@ -123,7 +132,7 @@
       <div class="row">
         <div class="col-sm-6 col-xs-12">
           <div class="box5">
-            <img src="./Assets/Images/Work-Day-Scheduler.jpg" alt="Work Day Scheduler"><br>
+            <img src="./public/Assets/Images/Work-Day-Scheduler.jpg" alt="Work Day Scheduler"><br>
             <div class="text">
               <h5>Work Day Scheduler</h5>
               <!-- Links to GitHub deployed website and github code -->
@@ -137,7 +146,7 @@
         <!-- Sixth picture on my portfolio page. -->
         <div class="col-sm-6 col-xs-12">
           <div class="box6">
-            <img src="./Assets/Images/OOP-Programming.jpg" alt="OOP-Programming">
+            <img src="./public/Assets/Images/OOP-Programming.jpg" alt="OOP-Programming">
             <div class="text">
               <h5>OOP Programming</h5>
               <!--Link github code -->

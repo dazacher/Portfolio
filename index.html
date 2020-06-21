@@ -7,7 +7,7 @@
   <meta property="og:description" content="Dee Ann Scanniello Image" />
   <meta property="og:url" content="https://dazacher.github.io/Portfolio/" />
 
-  <link rel="icon" href="./Assets/Images/favicon.png" type="image/x-icon/">
+  <link rel="icon" href="./public/Assets/Images/favicon.png" type="image/x-icon/">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://kit.fontawesome.com/6d15c51378.js" crossorigin="anonymous"></script>
@@ -27,7 +27,7 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
   <!-- Link to personal style sheet -->
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./public/styles/style.css" />
 
   <title>Dee Ann Scanniello Bio</title>
 </head>
@@ -48,7 +48,8 @@
           <!-- Link to the About me page -->
           <a class="nav-item nav-link active" href="./index.html">About Me <span class="sr-only">(current)</span></a>
           <!-- Link to the Resume page -->
-          <a class="nav-item nav-link" href="./Assets/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf">Resume</a>
+          <a class="nav-item nav-link"
+            href="./public/Assets/Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf">Resume</a>
           <!-- Link to the Portfolio page -->
           <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
           <!-- Link to the Contact page -->
@@ -62,15 +63,23 @@
 
   <div class="container" id="index">
     <div class="row">
-      <div class="col-12 pull-left">
+      <!-- <div class="col-12 pull-left"> -->
+      <div class="col-xs-12 col-md-3 img-fix">
         <!-- Picture of myself and a couple of paragraphs about myself-->
-        <img class="img-responsive" id="deeannImg" src="Assets/Images/Me.png" alt="Dee Ann Scanniello">
-        <div class="container" id="dafs">
-          <p id="deeann">I am Dee Ann...</p>
-          <p id="fullstack">a full stack web developer</p>
-        </div>
+        <img class="img-responsive mx-auto" id="deeannImg" src="./public/Assets/Images/Me.png" alt="Dee Ann Scanniello">
+      </div>
+      <div class="col-xs-12 col-md-9" id="dafs">
+        <!-- <div class="container" > -->
+          <!-- <div class="row" > -->
+            <h1>I am Dee Ann...</h1>
+          <!-- </div> -->
+          <!-- <div class="row"> -->
+            <p id="fullstack">a full stack web developer</p>
+          <!-- </div> -->
+        <!-- </div> -->
       </div>
     </div>
+
     <div class="row">
       <div class="col-12">
         <h2>About Me</h2>
@@ -105,22 +114,22 @@
           <ul>
             <!-- Link to my email address so someone can email me. -->
             <strong>
-              <li><img class="indexImages" src="./Assets/Images/mail-icon-purple-on-clear-th.png"><a
+              <li><img class="indexImages" src="./public/Assets/Images/mail-icon-purple-on-clear-th.png"><a
                   href="mailto:dazacher2000@yahoo.com? subject=subject text"> Dee Ann Scanniello </a> </li>
             </strong>
             <!-- Link to my GitHub page -->
             <strong>
-              <li><img class="indexImages" src="./Assets/Images/GitHub2.png"><a href="https://github.com/dazacher"
-                  target="_blank"> https://github.com/dazacher</a></li>
+              <li><img class="indexImages" src="./public/Assets/Images/GitHub2.png"><a
+                  href="https://github.com/dazacher" target="_blank"> https://github.com/dazacher</a></li>
             </strong>
             <!-- Link to my Resume page -->
             <strong>
-              <li><img class="indexImages" src="./Assets/Images/resume.png"><a
+              <li><img class="indexImages" src="./public/Assets/Images/resume.png"><a
                   href="./Assets//Dee_Ann_Scanniello_Resume_Web_Developer_Full_Stack.pdf"> Dee Ann Scanniello</a></li>
             </strong>
             <!-- Link to my LinkedIn page -->
             <strong>
-              <li><img class="indexImages" src="./Assets/Images/linkedin2.png"> <a
+              <li><img class="indexImages" src="./public/Assets/Images/linkedin2.png"> <a
                   href="https://linkedin.com/in/deeannscanniello" target="_blank">
                   https://www.linkedin.com/in/deeannscanniello/</a></li>
             </strong>
@@ -128,6 +137,7 @@
         </div>
       </div>
     </div>
+  </div>
 </body>
 
 </html>
