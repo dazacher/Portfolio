@@ -21,6 +21,7 @@ body{
     text-align: center;
     width: 100%;
 }
+
 .resumeHeader{
     text-decoration: underline;
     padding-top: 25px;
@@ -64,11 +65,7 @@ li.borderless {
     background-color: #990099;
 }
 
-/* .deeann {
-    font-size: xxx-large;
-    text-align: center;
-} */
-
+/* formatting for 'full stack developer' */
 #fullstack {
     font-size: x-large;
     text-align: center;
@@ -126,8 +123,12 @@ div{
 .anchor{
     display: flex;
     justify-content: center;
+    font-size: small;
+    padding-top: 5px;
     /* text-align: center; */
 }
+
+/* Wrapper css makes images on portfolio same size */
 .wrapper {
     position: relative;
     overflow: hidden;
@@ -148,21 +149,24 @@ div{
     top: 0;
     transform: translateX(-50%);
   }
+
 /* Image of self on index page align properly and have padding at top of image */
 .img-fix {
     padding-top: 25px;
     text-align: center;
 }
 
+/* Container needed padding for proper view in smaller screens */
 .container {
     padding-top: 25px;
     padding-right: 30px;
 }
+
 /* Make links look like buttons */
 .button {
     display: block;
     width: 115px;
-    height: 25px;
+    height: 20px;
     background: white;
     text-align: center;
     border-radius: 5px;
@@ -180,6 +184,28 @@ div{
       width: 220px;
       height: 275px;
   }
+
+  .text{
+
+    text-align: center;
+    width: 100%;
+    background-color: #990099;
+    color:white;
+    font-size: small;
+}
+
+/* Media query to mage image on index page align properly at diferent sizes */
+@media (min-width: 768px) {
+    .img-responsive {float: left;}
+}
+/* Media query to mage personalized text on index page align properly at diferent sizes */
+@media (min-width: 576px) {
+    .deeann {display: inline;}
+}
+/* Make I am Dee Ann align center */
+h1, .contactInfo {
+    text-align: center;
+}
 
   /* Setup position of first image */
 /* .box1{
@@ -219,13 +245,7 @@ div{
 } */
 
 /* Setup text positioning of first image */
-.text{
-    text-align: center;
-    width: 100%;
-    background-color: #990099;
-    color:white;
-    font-size: small;
-}
+
 
  /* .box1 #anchor1 {
     text-align: center;
@@ -359,15 +379,3 @@ div{
     height: 60px;
 } */
 
-/* Media query to mage image on index page align properly at diferent sizes */
-@media (min-width: 768px) {
-    .img-responsive {float: left;}
-}
-/* Media query to mage personalized text on index page align properly at diferent sizes */
-@media (min-width: 576px) {
-    .deeann {display: inline;}
-}
-/* Make I am Dee Ann align center */
-h1, .contactInfo {
-    text-align: center;
-}
