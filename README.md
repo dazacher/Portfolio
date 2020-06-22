@@ -1,5 +1,29 @@
-# Responsive-Portfolio
-Portfolio using Bootstrap Grid
+## Portfolio
+
+#### Table of Contents
+
+* [Author](#author)
+* [Title](#title)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* Questions
+    * [Picture](#picture) Due you want your profile picture?
+    * [Email](#email) Do you want your GitHub email?
+* [Link](#link)
+
+### Author
+
+The author of this project is: Dee Ann Scanniello
+
+### Title
+
+Portfolio
+
+### Description
 
 This project is being built focusing on using Bootstrap technology to make the web pages responsize so that when used on devices with different sized screens, the layout will still look pleasant to the user.
 
@@ -13,4 +37,38 @@ Next I moved to the Contact.html page. Here I used a Boostrap form and placed it
 
 Finally I worked on the Portfolio.html page.  This proved to be quite a challenge.  The challenge was getting the pictures to line up on a cell phone.  They would line up on a computer screen when you minimized it, but not on the cell phone.
 
-Here is the link link to my bootstrap project: https://dazacher.github.io/Portfolio/
+### Installation
+
+Install the project by doing the following: There are no installation steps required for this application.
+
+### Usage
+
+Use the app by doing the following: There are no usage instructions for this application.
+
+### License
+
+License: MIT
+
+### Contributing
+
+Contributing: There is no contributing data to show.
+
+### Tests
+
+Tests: There are no tests for this application.
+
+### Picture
+
+<img src="https://avatars3.githubusercontent.com/u/61209724?v=4"/>
+
+### Email
+
+dazacher2000@yahoo.com
+
+### Badge
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://api.github.com/dazacher/Portfolio)
+
+### Link
+
+https://dazacher.github.io/Portfolio/
