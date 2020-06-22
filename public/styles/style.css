@@ -86,6 +86,14 @@ li.borderless {
     font-family: 'Kalam', cursive;
 }
 
+/* contact icons in index page size */
+.indexImages{
+    width: 40px;
+    height: 55px;
+    padding-bottom: 15px;
+    background-color: transparent;
+}
+
 /* Set the color of the font for the site to Purple */
 div{
     color: #990099;
@@ -377,11 +385,5 @@ h1, .contactInfo {
     font-size: small;
 } */
 
-/* contact icons in index page size */
-.indexImages{
-    width: 40px;
-    height: 55px;
-    padding-bottom: 15px;
-    background-color: transparent;
-}
+
 
