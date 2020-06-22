@@ -12,7 +12,7 @@ body{
     width: 105%
 }
 
-/* Resume CSS */
+/* Resume CSS - not used at this time*/
 .resume{
     font-family: 'Kalam', cursive;
 }
@@ -59,8 +59,9 @@ li.borderless {
 .career{
     font-weight: bold;
 }
-/* End Resume CSS */
+/* End Resume CSS - not used at this time*/
 
+/* set the background color of the navbar */
 .navbar {
     background-color: #990099;
 }
@@ -107,6 +108,7 @@ div{
     border-bottom: solid;
 }
 
+/* add padding so text is not at top of screen */
 #dafs{
  padding-top: 50px;
 }
@@ -174,7 +176,7 @@ div{
     line-height: 25px;
 }
 
-  /* Adjust the sizes of the images on the portfolio page */
+/* Adjust the sizes of the images on the portfolio page */
 #portfolio  img {
     width: 100%;
   }
@@ -185,8 +187,8 @@ div{
       height: 275px;
   }
 
-  .text{
-
+  /* Set the format of the text on the portfolio page */
+.text{
     text-align: center;
     width: 100%;
     background-color: #990099;
@@ -198,10 +200,12 @@ div{
 @media (min-width: 768px) {
     .img-responsive {float: left;}
 }
+
 /* Media query to mage personalized text on index page align properly at diferent sizes */
 @media (min-width: 576px) {
     .deeann {display: inline;}
 }
+
 /* Make I am Dee Ann align center */
 h1, .contactInfo {
     text-align: center;
