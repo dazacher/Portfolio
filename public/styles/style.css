@@ -135,15 +135,19 @@ div{
     text-align: center;
 }
 
+.container {
+    padding-top: 25px;
+    padding-right: 30px;
+}
 /* Make links look like buttons */
 .button {
     display: block;
     width: 115px;
     height: 25px;
-    background: #990099;
+    background: white;
     text-align: center;
     border-radius: 5px;
-    color: White;
+    color: #990099;
     line-height: 25px;
 }
 
@@ -159,67 +163,67 @@ div{
   }
 
   /* Setup position of first image */
-.box1{
+/* .box1{
     position: relative;
     top: 25px;
     bottom: 50px;
 
-}
+} */
 
  /* Setup position of second image */
-.box2{
+/* .box2{
     position: relative;
     top: 25px;
     bottom: 50px;
-}
+} */
 
  /* Setup position of third image */
-.box3{
+/* .box3{
     position :relative;
     top: 50px;
-} 
+}  */
 
  /* Setup position of fourth image */
-.box4{
+/* .box4{
     position: relative;
     top: 50px;
-}
+} */
 /* Setup position of fifth image */
-.box5{
+/* .box5{
     position: relative;
     top: 75px;
-}
+} */
 /* Setup position of sixth image */
-.box6{
+/* .box6{
     position: relative;
     top: 75px;
-}
+} */
 
 /* Setup text positioning of first image */
-.box1 .text{
-    position: absolute;
+.text{
+    /* position: absolute; */
     text-align: center;
     width: 100%;
-    bottom: 15px;
+    /* bottom: 15px; */
     background-color: #990099;
     color:white;
     font-size: small;
 }
 
- .box1 #anchor1 {
+ /* .box1 #anchor1 {
     text-align: center;
     bottom: -15px;
     font-size: small;
-}
+} */
 
-.box1 #anchor2{
+/* .box1 #anchor2{
     text-align: center;
     bottom: -155px;
     font-size: small;
 }
 
 /* Setup text positioning of second image */
-.box2 .text{
+/* .box2 .text{
     position: absolute;
     text-align: center;
     width: 100%;
@@ -233,15 +237,15 @@ div{
     text-align: center;
     bottom: -15px;
     font-size: small;
-}
+} */ 
 
-.box2 #anchor4{
+/* .box2 #anchor4{
     text-align: center;
     bottom: -155px;
     font-size: small;
 }
 /* Setup text positioning of third image */
-.box3 .text{
+/* .box3 .text{
     position: absolute;
     text-align: center;
     width: 100%;
@@ -249,9 +253,9 @@ div{
     background-color: #990099;
     color:white;
     font-size: small;
-}
+} */ */
 
-.box3 #anchor5{
+/* .box3 #anchor5{
     text-align: center;
     bottom: -15px;
     font-size: small;
@@ -264,7 +268,7 @@ div{
 }
 
 /* Setup text positioning of fourth image */
-.box4 .text{
+/* .box4 .text{
     position: absolute;
     text-align: center;
     width: 100%;
@@ -272,9 +276,9 @@ div{
     background-color: #990099;
     color:white;
     font-size: small;
-}
+} */ */
 
-.box4 #anchor7{
+/* .box4 #anchor7{
     text-align: center;
     bottom: -15px;
     font-size: small;
@@ -307,10 +311,10 @@ div{
     text-align: center;
     bottom: -155px;
     font-size: small;
-}
+} */
 
 /* Setup text positioning of sixth image */
-.box6 .text{
+/* .box6 .text{
     position: absolute;
     text-align: center;
     width: 100%;
@@ -330,7 +334,7 @@ div{
     text-align: center;
     bottom: -155px;
     font-size: small;
-}
+} */
 
 /* contact icons in index page size */
 .indexImages{
