@@ -120,33 +120,30 @@ div{
     text-align: left;
     color: white;
     left: 25px;
-    }
+}
+
 /* Make anchors align center on portfolio page */
 .anchor{
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
 /* Image of self on index page align properly and have padding at top of image */
 .img-fix {
     padding-top: 25px;
     text-align: center;
 }
 
-/* .btnPortfolio {
-    background-color: white;
-    color: #990099;
-    font-size: x-small;
-} */
 /* Make links look like buttons */
 .button {
     display: block;
     width: 115px;
     height: 25px;
-    background: white;
+    background: #990099;
     text-align: center;
     border-radius: 5px;
-    color: #990099;
+    color: White;
     line-height: 25px;
 }
 
