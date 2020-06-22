@@ -126,9 +126,28 @@ div{
 .anchor{
     display: flex;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
 }
-
+.wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .wrapper:after {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
+  
+  .wrapper img {
+    width: auto;
+    height: 100%;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
 /* Image of self on index page align properly and have padding at top of image */
 .img-fix {
     padding-top: 25px;
@@ -201,10 +220,8 @@ div{
 
 /* Setup text positioning of first image */
 .text{
-    /* position: absolute; */
     text-align: center;
     width: 100%;
-    /* bottom: 15px; */
     background-color: #990099;
     color:white;
     font-size: small;
@@ -253,7 +270,7 @@ div{
     background-color: #990099;
     color:white;
     font-size: small;
-} */ */
+} */ 
 
 /* .box3 #anchor5{
     text-align: center;
@@ -276,7 +293,7 @@ div{
     background-color: #990099;
     color:white;
     font-size: small;
-} */ */
+} */ 
 
 /* .box4 #anchor7{
     text-align: center;
@@ -291,7 +308,7 @@ div{
 }
 
 /* Setup text positioning of fifth image */
-.box5 .text{
+/* .box5 .text{
     position: absolute;
     text-align: center;
     width: 100%;
@@ -311,7 +328,7 @@ div{
     text-align: center;
     bottom: -155px;
     font-size: small;
-} */
+} */ 
 
 /* Setup text positioning of sixth image */
 /* .box6 .text{
@@ -337,10 +354,10 @@ div{
 } */
 
 /* contact icons in index page size */
-.indexImages{
+/* .indexImages{
     width: 60px;
     height: 60px;
-}
+} */
 
 /* Media query to mage image on index page align properly at diferent sizes */
 @media (min-width: 768px) {
