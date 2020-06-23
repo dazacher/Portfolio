@@ -88,10 +88,28 @@ li.borderless {
 
 /* contact icons in index page size */
 .indexImages{
-    width: 40px;
-    height: 55px;
     padding-bottom: 15px;
-    background-color: transparent;
+}
+
+/* Make the contact icons highlight when hovered over */
+#emailImage:hover {
+    filter: grayscale(100%);
+    -webkit-filter: brightness(1.50);
+}
+
+#githubImage:hover {
+    filter: grayscale(100%);
+    -webkit-filter: brightness(1.50);   
+}
+
+#fileImage:hover {
+    filter: grayscale(100%);
+    -webkit-filter: brightness(1.50); 
+}
+
+#linkedinImage:hover {
+    filter: grayscale(100%);
+    -webkit-filter: brightness(1.50); 
 }
 
 /* Set the color of the font for the site to Purple */
